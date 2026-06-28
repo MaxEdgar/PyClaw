@@ -82,7 +82,7 @@ backend, PyClaw provides the agent and interface around it.
 ### 1. Get the code
 
 ```bash
-git clone https://github.com/your-org/pyclaw.git
+git clone https://github.com/MaxEdgar/pyclaw.git
 cd pyclaw
 ```
 
