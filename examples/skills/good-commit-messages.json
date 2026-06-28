@@ -1,0 +1,12 @@
+{
+  "name": "good-commit-messages",
+  "description": "Use when committing changes, to write clear conventional commit messages",
+  "instructions": "Write commit messages in the conventional commits style: a short type prefix (feat, fix, refactor, docs, test, chore) followed by a concise imperative-mood summary under 72 characters, e.g. \"fix: handle empty project_root path\". If the change is non-trivial, add a blank line and a short body explaining why the change was made, not just what changed. Never include the word \"AI\" or mention that the commit was AI-assisted in the message itself. Always run git_diff first to see what is actually being committed before writing the message, rather than guessing from the conversation alone.",
+  "trigger_keywords": [
+    "commit",
+    "commit message",
+    "git commit"
+  ],
+  "created_at": 1782366392.4258666,
+  "updated_at": 1782366392.4258666
+}

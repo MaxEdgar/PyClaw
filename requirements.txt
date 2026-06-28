@@ -1,0 +1,6 @@
+# PyClaw dependencies
+# Kept minimal intentionally for low-memory / Termux environments.
+
+requests>=2.31.0      # HTTP client for the llama.cpp / OpenAI-compatible API
+rich>=13.7.0           # Terminal rendering: panels, diffs, syntax highlighting
+textual>=0.58.0        # Full TUI application framework

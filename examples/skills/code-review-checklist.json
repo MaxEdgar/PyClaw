@@ -1,0 +1,13 @@
+{
+  "name": "code-review-checklist",
+  "description": "Use when asked to review code, a diff, or a pull request",
+  "instructions": "When reviewing code: 1) Check for obvious correctness bugs first (off-by-one, null/None handling, unhandled exceptions). 2) Check whether existing tests cover the change, and flag if they do not. 3) Check for security-sensitive patterns (unsanitized input reaching a shell command, file path, or SQL query). 4) Only after correctness and safety, comment on style or naming. Be specific: cite the exact line and what is wrong, not a vague \"this could be cleaner\". If the code looks correct, say so plainly instead of inventing nitpicks to seem thorough.",
+  "trigger_keywords": [
+    "review",
+    "code review",
+    "pull request",
+    "pr review"
+  ],
+  "created_at": 1782366392.4293177,
+  "updated_at": 1782366392.4293177
+}
